@@ -1,0 +1,228 @@
+body{
+	min-height:95vh;
+	min-width: 95vw;
+	background-image: url("img/terrain.jpeg");
+	overflow: hidden;
+}
+#terraing{
+
+	margin-top: 2vh;
+	margin-left: 5vh;
+	height: 95vh;
+	width: 47vw;
+	border: 5px solid white;
+	position: absolute;
+	top: 0px; left: 0px;
+	
+}
+
+
+#terraind{
+
+	margin-top: 2vh;
+	margin-right: 5vh;
+	height: 95vh;
+	width: 52vw;
+	border: 5px solid white;
+	border-left: none;
+	position: absolute; 
+	top: 0px; right: 0px;
+
+}
+
+
+
+#butgauche{
+
+	height: 29vh;
+	width:  6vh;
+	border: 4px solid white;
+	border-left: none;
+	position: absolute; 
+	top: 34.5%;  left: 0%;
+
+
+}
+
+#penag{
+
+	height: 43vh;
+	width:  12vw;
+	border: 4px solid white;
+	border-left: none;
+	position: absolute; 
+	top: 28%;  left: 0%;
+
+
+}
+#cerclec{
+  border-radius:50%;
+  width:21%;
+  height:21%;
+  border:3px solid white; 
+  position: absolute;
+  top:41%; right: -11%;
+
+}
+#halfg{
+  	width: 10vh;
+  	height:20vh;
+     border-radius: 0vh 20vh 20vh 0;
+     border: 3px solid white;
+  position: absolute;
+   top:38vh; left:12vw ;
+
+
+}
+
+#butdroit{
+
+	height: 29vh;
+	width:  6vh;
+	border: 4px solid white;
+	border-right: none;
+	position: absolute; 
+	top: 34.5%;  right: 0%;
+
+
+}
+
+
+#penad{
+
+	height: 43vh;
+	width:  12vw;
+	border: 4px solid white;
+	border-right: none;
+	position: absolute; 
+	top: 28%;  right: 0%;
+
+
+}
+#halfd{
+    width: 10vh;
+  	height:20vh;
+     border-radius: 20vh 0 0 20vh;
+     border: 3px solid white;
+  position: absolute;
+   top:38vh; right:12vw ;
+
+
+}
+
+#gardieng{
+	height: 20vh;
+	width:  1.5vw;
+	border: 2px solid white;
+	border-right: none;
+	position: absolute;
+	top:37vh; left: -1.7vw;
+
+}
+
+
+#gardiend{
+	height: 20vh;
+	width:  1.5vw;
+	border: 2px solid white;
+	border-left: none;
+	position: absolute;
+	top:37vh; right: -1.7vw;
+
+}
+	
+#cornerhg{
+  	width: 8vh;
+  	height:8vh;
+     border-radius: 0 0 20vh 0vh;
+	 border: 3px solid white; 
+  	 position: absolute;
+   	 top:0vh; left:0vw ;
+
+}
+
+
+#cornerhd{
+	width: 8vh;
+  	height:8vh;
+     border-radius: 0 0 0 20vh;
+	 border: 3px solid white; 
+  	 position: absolute;
+   	 top:0vh; right:0vw ;
+}
+
+
+
+#cornerbg{
+
+
+	width: 8vh;
+  	height:8vh;
+     border-radius: 0 20vh 0 0vh;
+	 border: 3px solid white; 
+  	 position: absolute;
+   	 bottom:0vh; left:0vw ;
+}
+
+
+#cornerbd{
+	width: 8vh;
+  	height:8vh;
+     border-radius: 20vh 0vh 0 0;
+	 border: 3px solid white; 
+  	 position: absolute;
+   	 bottom:0vh; right: 0vh;
+
+}
+
+#pointg {
+
+	height: 1%;
+	width:  1%;
+	border-radius: 50%;
+	background-color: white;
+	border: 3px solid white;
+	position: absolute;
+	top: 48vh; left: 8vw;
+}
+
+#pointd{
+	height: 1%;
+	width:  1%;
+	border-radius: 50%;
+	background-color: white;
+	border: 3px solid white;
+	position: absolute;
+	top: 48vh; right: 8vw;
+
+}
+#ballon{
+	height: 30vh;
+	width:30vw;	
+	position: absolute;
+	top: 47vh; left: 48vw;
+	background-image:  url("img/ballon_foot.png");
+	background-repeat: no-repeat;
+	background-size: 8vh;
+	animation-name: billy;
+	animation-duration: 2s;
+}
+
+@keyframes billy{
+
+	from{
+		background-size: 30vh;
+	position: absolute;
+	top: 47vh; left: 48vw;
+		}
+
+	to{
+		background-size: 8vh;
+	position: absolute;
+	top: 47vh; left: 48vw;
+		}
+}
+
+
+
+
